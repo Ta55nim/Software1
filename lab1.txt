@@ -1,0 +1,70 @@
+
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test
+$ git config --global user.name "Ta55nim"
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test
+$ git config --global user.email "a.tasnim1710@gmail.com"
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test
+$ git init
+Initialized empty Git repository in C:/Users/Afsha/OneDrive/Desktop/git test/.git/
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (master)
+$ git remote add origin https://github.com/Ta55nim/Software1.git
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (master)
+$ git add .
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (master)
+$ git branch -M main
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git commit -m "2 files added"
+[main (root-commit) 3cb700c] 2 files added
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+ create mode 100644 b.txt
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 214 bytes | 214.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ta55nim/Software1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git add a.txt
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git commit -m "1 file updated"
+[main 6e76752] 1 file updated
+ 1 file changed, 2 insertions(+)
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ta55nim/Software1.git
+   3cb700c..6e76752  main -> main
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git config --global list
+error: key does not contain a section: list
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$ git config --global --list
+user.name=Ta55nim
+user.email=a.tasnim1710@gmail.com
+
+Afsha@Shara MINGW64 ~/OneDrive/Desktop/git test (main)
+$
